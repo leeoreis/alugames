@@ -7,13 +7,18 @@ Se o jogo estiver disponível, o texto do botão deve ser "Alugar" e a imagem de
 
 # O que foi feito
 Criada a função alterarStatus conforme solicitado no desafio
+
 Implementada uma faixa de status no html acima da imagem
+
 Incluídas bordas arredondadas no topo das imagens
+
 Incluída personalização no título do jogo
+
 Identidade visual modificada
 
 # Como foi feito
 Utilizando função no JavaScript para identificar, processar e alterar os dados no HTML
+
 Ajustando a estilização prévia da página no CSS
 
 # Preview
