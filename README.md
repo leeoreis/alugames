@@ -13,10 +13,11 @@ Incluída personalização no título do jogo
 Identidade visual modificada
 
 # Como foi feito
-Utilizando JavaScript para ler e alterar dados no HTML e ajustando a estilização prévia da página no CSS
+Utilizando função no JavaScript para identificar, processar e alterar os dados no HTML
+Ajustando a estilização prévia da página no CSS
 
 # Preview
-![image](https://github.com/leeoreis/alugames/assets/128519062/61f6efd5-369d-480e-bd56-1f4b28da71cd)
+![image](https://github.com/leeoreis/alugames/assets/128519062/f02f6fe9-42a4-4860-a898-f9772ef2eead)
 
 # Demo
 Live demo: https://alugames-olive.vercel.app/
