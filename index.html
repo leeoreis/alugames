@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluGames</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body class="body">
+    <main class="container main">
+      <img src="img/logo.svg" alt="Logo AluGames" />
+      <h1 class="page-title">
+        Aluguel de <span class="page-title__emphasis">boardgames</span>
+      </h1>
+      <section class="dashboard">
+        <ul class="dashboard__items">
+          <li
+            class="dashboard__items__item"
+            id="game-1"
+            onclick="alterarStatus(1)"
+          >
+            <div class="dashboard__item__img">
+              <span class="dashboard__item__img__status"></span>
+              <img src="img/monopoly.png" alt="Capa jogo Monopoly" />
+            </div>
+            <p class="dashboard__item__name">Monopoly</p>
+            <a class="dashboard__item__button">Alugar</a>
+          </li>
+
+          <li
+            class="dashboard__items__item"
+            id="game-2"
+            onclick="alterarStatus(2)"
+          >
+            <div class="dashboard__item__img">
+              <span class="dashboard__item__img__status"></span>
+              <img
+                src="img/ticket_to_ride.png"
+                alt="Capa jogo Ticket to Ride"
+              />
+            </div>
+            <p class="dashboard__item__name">Ticket to Ride</p>
+            <a class="dashboard__item__button">Alugar</a>
+          </li>
+
+          <li
+            class="dashboard__items__item"
+            id="game-3"
+            onclick="alterarStatus(3)"
+          >
+            <div class="dashboard__item__img">
+              <span class="dashboard__item__img__status"></span>
+              <img src="img/takenoko.png" alt="Capa jogo Takenoko" />
+            </div>
+            <p class="dashboard__item__name">Takenoko</p>
+            <a class="dashboard__item__button">Devolver</a>
+          </li>
+        </ul>
+      </section>
+      <!-- <img src="img/hachuras.svg" alt="Visual hachuras" class="hachuras" /> -->
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
